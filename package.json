@@ -1,10 +1,12 @@
 {
   "name": "@4lexdel/maze-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Maze generator provider.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/4lexDel/maze-generator/issues"
   },
-  "homepage": "https://github.com/4lexDel/maze-generator#readme"
+  "homepage": "https://github.com/4lexDel/maze-generator#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
