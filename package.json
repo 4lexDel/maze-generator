@@ -1,6 +1,6 @@
 {
   "name": "@4lexdel/maze-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Maze generator provider.",
   "main": "index.js",
   "scripts": {

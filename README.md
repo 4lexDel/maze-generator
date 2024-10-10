@@ -9,10 +9,10 @@ npm install @4lexdel/maze-generator
 
 ### Getting started
 ```js
-const mazeTool = require('@4lexdel/maze-generator');
+const { MazeFusion } = require("@4lexdel/maze-generator");
 
-const mazeGenerator = mazeTool.createMazeManager("Kruskal's Algorithm");
+const mazeGenerator = new MazeFusion(11, 5);
+let maze = mazeGenerator.generate();
 
-let maze = mazeGenerator.generate(20, 10);
 console.log(maze);
 ```

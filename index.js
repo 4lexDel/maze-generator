@@ -95,9 +95,4 @@ class MazeFusion {
     }
 }
 
-const mazeGenerator = new MazeFusion(11, 5);
-let maze = mazeGenerator.generate();
-
-console.log(maze);
-
-module.exports = MazeFusion;
+module.exports = { MazeFusion };
