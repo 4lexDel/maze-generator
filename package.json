@@ -1,0 +1,24 @@
+{
+  "name": "@4lexdel/maze-generator",
+  "version": "1.0.0",
+  "description": "Maze generator provider.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lexDel/maze-generator.git"
+  },
+  "keywords": [
+    "Maze",
+    "Generator",
+    "Algorithm"
+  ],
+  "author": "4lexdel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4lexDel/maze-generator/issues"
+  },
+  "homepage": "https://github.com/4lexDel/maze-generator#readme"
+}
