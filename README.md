@@ -4,12 +4,12 @@
 
 ### Installation
 ```bash
-npm install maze-generator
+npm install @4lexdel/maze-generator
 ```
 
 ### Getting started
 ```js
-const mazeTool = require('maze-generator');
+const mazeTool = require('@4lexdel/maze-generator');
 
 const mazeGenerator = mazeTool.createMazeManager("Kruskal's Algorithm");
 
